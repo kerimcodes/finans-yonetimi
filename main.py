@@ -557,7 +557,7 @@ def gider_sil(kullanici_adi):
             satirlar = dosya.readlines()
 
         if not satirlar:
-            print(dil_sözlugu["silinecek_gelir_yok"])
+            print(dil_sözlugu["silinecek_gider_yok"])
             return
 
         giderleri_görüntüle(kullanici_adi)
